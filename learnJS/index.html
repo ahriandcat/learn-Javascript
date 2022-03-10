@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>Bài 1</p>
+      <form>
+        <p>Nhập nhiệt độ (°C)</p>
+        <input id="a1" type="number" name="độ C" onchange="c2f()" />
+        <button name="button" value="OK" type="button" onclick="c2f()">
+          Chuyển đổi
+        </button>
+        <p id="a2"></p>
+        <script src="javascript.js"></script>
+      </form>
+    </div>
+    <div>
+      <p>Bài 2</p>
+      <form>
+        <p>Nhập số tiền (USD)</p>
+        <input id="b1" type="number" name="USD" onchange="USD2VND()" />
+        <button name="button" value="OK" type="button" onclick="USD2VND()">
+          Chuyển đổi
+        </button>
+        <p id="b2"></p>
+        <script src="javascript.js"></script>
+      </form>
+    </div>
+    <div>
+      <p>Bài 3</p>
+      <form>
+        <p>Nhập độ dài cạnh a</p>
+        <input id="c1" type="number" name="a" onchange="findArea()" />
+        <p>Nhập độ dài cạnh b</p>
+        <input id="c2" type="number" name="b" onchange="findArea()" />
+        <br />
+        <br />
+        <button name="button" value="OK" type="button" onclick="findArea()">
+          Tính diện tích
+        </button>
+        <p id="c3"></p>
+        <script src="javascript.js"></script>
+      </form>
+    </div>
+    <div>
+      <p>Bài 4</p>
+      <form>
+        <p>Nhập số tiền gốc</p>
+        <input id="d1" type="number" name="q" onchange="compoundInterest()" />
+        <p>Nhập lãi suất hàng năm</p>
+        <input id="d2" type="number" name="w" onchange="compoundInterest()" />
+        <p>Chọn hình thức gửi</p>
+        <select id="d3" onchange="compoundInterest()">
+            <option value=12>Theo tháng
+            <option value=4>Theo quý
+            <option value=1>Theo năm
+        </select>
+        <p>Nhập số năm gửi</p>
+        <input id="d4" type="number" name="r" onchange="compoundInterest()" />
+        <br />
+        <br />
+        <button name="button" value="OK" type="button" onclick="compoundInterest()">
+          Tính tổng tiền
+        </button>
+        <p id="d5"></p>
+        <script src="javascript.js"></script>
+      </form>
+    </div>
+     <div>
+      <p>Bài 5</p>
+      <form>
+        <p>Nhập độ dài cạnh a</p>
+        <input id="e1" type="number" name="a" onchange="findArea2()" />
+        <p>Nhập độ dài cạnh b</p>
+        <input id="e2" type="number" name="b" onchange="findArea2()" />
+        <p>Nhập độ dài cạnh c</p>
+        <input id="e3" type="number" name="c" onchange="findArea2()" />
+        <br />
+        <br />
+        <button name="button" value="OK" type="button" onclick="findArea2()">
+          Tính diện tích
+        </button>
+        <p id="e4"></p>
+        <script src="javascript.js"></script>
+      </form>
+    </div>
+  </body>
+</html>
