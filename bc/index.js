@@ -1,6 +1,6 @@
 const person = [
   {
-    id: 1,
+    id: 2,
     name: "Vuong Do",
     gender: "male",
     age: 22,
@@ -8,7 +8,7 @@ const person = [
     phone: "0123456789",
   },
   {
-    id: 2,
+    id: 1,
     name: "Do Vuong",
     gender: "male",
     age: 22,
@@ -74,7 +74,7 @@ function handleFormSubmit(e) {
   console.log(id, name, gender, age, email, phone);
   const newPerson = createNewPerson(id, name, gender, age, email, phone);
   const $new = createPerson(newPerson);
-  $(".person-list").append($new);
+  $(".person-list").prepend($new);
   $inputId.val("");
   $inputFullName.val("");
   $inputGender.val("");
@@ -88,7 +88,7 @@ function renderInput() {
     $(".add-input").css("display", "block");
     $(".cancel").on("click", function () {
       //   $(".add-input").val("");
-      $(".add-input").css("display", "none");
+      $(".add-input").css("display", "none").val("");
     });
   });
 }

@@ -15,54 +15,57 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <button class="button" style="width: 100px">button</button>
-    <div class="header">
-      <div class="table-header">
-        <p class="header-id">#</p>
-        <p class="header-fullname">Fullname</p>
-        <p class="header-gender">Gender</p>
-        <p class="header-age">Age</p>
-        <p class="header-email">Email</p>
-        <p class="header-phone">Phone</p>
+    <div class="container">
+      <button class="button" style="width: 100px">button</button>
+      <div class="header">
+        <div class="table-header">
+          <p class="header-id">#</p>
+          <p class="header-fullname">Fullname</p>
+          <p class="header-gender">Gender</p>
+          <p class="header-age">Age</p>
+          <p class="header-email">Email</p>
+          <p class="header-phone">Phone</p>
+        </div>
+      </div>
+      <div class="person-list"></div>
+      <template class="person-item-template">
+        <div class="template-div">
+          <p class="person-id"></p>
+          <p class="person-fullname"></p>
+          <p class="person-gender"></p>
+          <p class="person-age"></p>
+          <p class="person-email"></p>
+          <p class="person-phone"></p>
+        </div>
+      </template>
+      <div class="add"></div>
+      <!-- <template class="add-template"> -->
+        <div class="add-input">
+          <form action="" class="form">
+            <input type="number" placeholder="id" class="input-id" required />
+            <input
+              type="text"
+              placeholder="fullname"
+              class="input-name"
+              required
+            />
+            <input
+              type="text"
+              placeholder="gender"
+              class="input-gender"
+              required
+            />
+            <input type="number" placeholder="age" class="input-age" required />
+            <input type="text" placeholder="email" class="input-email" required />
+            <input type="text" placeholder="phone" class="input-phone" required />
+            <br />
+            <button class="btn-add" style="width: 100px">Add Person</button>
+            <button class="cancel" style="width: 100px">Cancel</button>
+  
+          </form>
+        </div>
       </div>
     </div>
-    <div class="person-list"></div>
-    <template class="person-item-template">
-      <div class="template-div">
-        <p class="person-id"></p>
-        <p class="person-fullname"></p>
-        <p class="person-gender"></p>
-        <p class="person-age"></p>
-        <p class="person-email"></p>
-        <p class="person-phone"></p>
-      </div>
-    </template>
-    <div class="add"></div>
-    <!-- <template class="add-template"> -->
-      <div class="add-input">
-        <form action="" class="form">
-          <input type="number" placeholder="id" class="input-id" required />
-          <input
-            type="text"
-            placeholder="fullname"
-            class="input-name"
-            required
-          />
-          <input
-            type="text"
-            placeholder="gender"
-            class="input-gender"
-            required
-          />
-          <input type="number" placeholder="age" class="input-age" required />
-          <input type="text" placeholder="email" class="input-email" required />
-          <input type="text" placeholder="phone" class="input-phone" required />
-          <br />
-          <button class="btn-add" style="width: 100px">Add Person</button>
-          <button class="cancel" style="width: 100px">Cancel</button>
-
-        </form>
-      </div>
-    </div>
+    
   </body>
 </html>
