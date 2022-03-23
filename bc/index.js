@@ -88,7 +88,7 @@ function renderInput() {
     $(".add-input").css("display", "block");
     $(".cancel").on("click", function () {
       //   $(".add-input").val("");
-      $(".add-input").css("display", "none").val("");
+      $(".add-input").val("").css("display", "none");
     });
   });
 }

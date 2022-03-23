@@ -8,10 +8,14 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .table-header p {
   background-color: rgb(228, 215, 215);
@@ -94,7 +98,7 @@ body {
   width: 40px;
 }
 .input-fullname {
-  width: 190px;
+  width: 150px;
 }
 .input-gender {
   width: 97px;
@@ -103,10 +107,10 @@ body {
   width: 68px;
 }
 .input-email {
-  width: 200px;
+  width: 180px;
 }
 .input-phone {
-  width: 172px;
+  width: 160px;
 }
 .form input {
   height: 30px;
@@ -117,6 +121,6 @@ body {
   height: 100%;
   align-items: flex-end;
   margin-top: 2px;
-  justify-content: space-between;
+  justify-content: flex-start;
   display: none;
 }
