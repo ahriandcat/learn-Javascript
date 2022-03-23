@@ -9,6 +9,7 @@ body {
 
 .container {
   max-width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -101,7 +102,7 @@ body {
   width: 150px;
 }
 .input-gender {
-  width: 97px;
+  width: 80px;
 }
 .input-age {
   width: 68px;
@@ -110,7 +111,7 @@ body {
   width: 180px;
 }
 .input-phone {
-  width: 160px;
+  width: 180px;
 }
 .form input {
   height: 30px;
