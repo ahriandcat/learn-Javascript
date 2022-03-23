@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table-header p {
+  background-color: rgb(228, 215, 215);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2px;
+}
+.table-header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-end;
+}
+.header-id {
+  width: 40px;
+}
+.header-fullname {
+  width: 190px;
+}
+.header-gender {
+  width: 100px;
+}
+.header-age {
+  width: 70px;
+}
+.header-email {
+  width: 200px;
+}
+.header-phone {
+  width: 170px;
+}
+
+.person-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-end;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.template-div p {
+  background-color: rgb(228, 215, 215);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2px;
+}
+.template-div {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.person-id {
+  width: 40px;
+}
+.person-fullname {
+  width: 190px;
+}
+.person-gender {
+  width: 100px;
+}
+.person-age {
+  width: 70px;
+}
+.person-email {
+  width: 200px;
+}
+.person-phone {
+  width: 170px;
+}
+.input-id {
+  width: 40px;
+}
+.input-fullname {
+  width: 190px;
+}
+.input-gender {
+  width: 97px;
+}
+.input-age {
+  width: 68px;
+}
+.input-email {
+  width: 200px;
+}
+.input-phone {
+  width: 172px;
+}
+.form input {
+  height: 30px;
+}
+.add-input {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-end;
+  margin-top: 2px;
+  justify-content: space-between;
+  display: none;
+}
